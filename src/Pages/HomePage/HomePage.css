@@ -1,0 +1,107 @@
+/* General Container Styling */
+.container {
+    padding: 20px;
+}
+
+/* Main Content Area (Mobile-First) */
+.homee {
+    margin-top: 84px;
+    text-align: center;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+/* Header Styling */
+.hed {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Ask Question Button */
+.qb {
+    background-color: #516CF0;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.qb:hover {
+    background-color: #FE8402;
+}
+
+/* Welcome Message */
+.wel {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #b8c0e9;
+    margin-top: 10px;
+}
+
+/* Section Title */
+.ns {
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #b8c0e9;
+    font-weight: bold;
+}
+
+/* Loading Spinner */
+.loading {
+    font-size: 1.5em;
+    color: #999;
+}
+
+/* Question Item Styling */
+.question-item {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.question-item:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* Load Section */
+.load {
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+
+/* Responsive Padding for Larger Screens */
+@media (min-width: 768px) {
+    .homee,
+    .load {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .homee,
+    .load {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
